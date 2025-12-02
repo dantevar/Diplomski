@@ -389,6 +389,7 @@ class Model:
 
 import numpy as np
 import time
+from MetricFriendlyGraphGenerator import MetricFriendlyGraphGenerator
 def main():
     # example distance matrix (complete directed with weights)
     distance_matrix = np.array([
@@ -401,8 +402,9 @@ def main():
     n =5
     #np.random.seed(2)
 
-    distance_matrix = np.random.rand(n, n) * 10
-    distance_matrix = (distance_matrix + distance_matrix.T) / 2
+    #distance_matrix = np.random.rand(n, n) * 10
+    #distance_matrix = (distance_matrix + distance_matrix.T) / 2
+    
     np.fill_diagonal(distance_matrix, 0)
 
     model = Model("DistanceModel", "1.0", distance_matrix=distance_matrix)
