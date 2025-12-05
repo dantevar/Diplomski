@@ -1,7 +1,10 @@
 import itertools
 import networkx as nx
 import numpy as np
-from NonMetricGraphGenerator import NonMetricGraphGenerator
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from generators.NonMetricGraphGenerator import NonMetricGraphGenerator
 
 class GraphModel:
     def __init__(self, distance_matrix):

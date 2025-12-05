@@ -1,10 +1,13 @@
 import numpy as np
 import time
 import networkx as nx
-from algorithms import GeneralizedTSPSolver
-from EuclideanGraphGenerator import EuclideanGraphGenerator
-from MetricFriendlyGraphGenerator import MetricFriendlyGraphGenerator
-from NonMetricGraphGenerator import NonMetricGraphGenerator
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from lib.algorithms import GeneralizedTSPSolver
+from generators.EuclideanGraphGenerator import EuclideanGraphGenerator
+from generators.MetricFriendlyGraphGenerator import MetricFriendlyGraphGenerator
+from generators.NonMetricGraphGenerator import NonMetricGraphGenerator
 import main as mzwv # Importing the existing solver file
 
 def create_star_graph(n):

@@ -1,0 +1,30 @@
+{
+    "walk_better_features": {
+        "violation_ratio": 0.2,
+        "violation_severity": 16.828896154526497,
+        "mean_weight": 48.69565050592241,
+        "std_weight": 21.181765377436754,
+        "cv": 0.4390999208268767,
+        "min_weight": 9.374622356495468,
+        "max_weight": 86.04833836858006,
+        "mst_cost": 148.28398791540786,
+        "mst_ratio": 3.0141366236553178,
+        "skewness": -0.0896507590556571,
+        "kurtosis": -0.7451368044537283,
+        "low_cost_density": 0.32472545916654677
+    },
+    "tsp_equal_features": {
+        "violation_ratio": 0.06821647586380983,
+        "violation_severity": 12.059565546350882,
+        "mean_weight": 50.21987319405467,
+        "std_weight": 18.705876557925116,
+        "cv": 0.3763104787745249,
+        "min_weight": 16.75491113189897,
+        "max_weight": 84.07857811038353,
+        "mst_cost": 164.6913002806361,
+        "mst_ratio": 3.267361752867651,
+        "skewness": 0.022883794626197752,
+        "kurtosis": -0.652975657915858,
+        "low_cost_density": 0.324497008033023
+    }
+}
